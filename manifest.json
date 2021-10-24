@@ -1,0 +1,23 @@
+{
+    "name":"Example : display cookies",
+    "version":"0.0.1.4",
+    "manifest_version":3,
+    "description"
+        :"This is a example to test whether it successfully displays cookie",
+    "content_scripts":[{
+        "matches":["<all_urls>"],
+        "js":["demoCookieDisplay.js"]
+    }],
+    "action":{
+        "default_icon":{
+            "16":"icon.png",
+            "24":"icon.png",
+            "32":"icon.png",
+            "48":"icon.png",
+            "64":"icon.png",
+            "128":"icon.png"
+            
+
+        }
+    }
+}
